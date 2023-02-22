@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700;800&display=swap');
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+
+
+/* COMUM PARA AMBOS */
+
+.conteudo {
+	background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	color: white;
+	width: 322px;
+	height: 460px;
+	border-radius: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	flex-direction: column;
+	padding: 30px 50px 30px 50px;
+ }
+
+.conteudo a {
+	color: hsl(228, 45%, 44%);	
+}
+
+.conteudo h4 {
+	color: hsl(241, 100%, 89%);
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+.circulo {
+	width: 174px;
+	height: 174px;
+	background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+	background-position: center;
+}
+
+.circulo span {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+}
+
+.circulo p {
+	font-size: 15px;
+	color: hsl(241, 100%, 89%);
+	line-height: 20px;
+}
+
+.great span {
+	font-size: 30px;
+	color: white;
+	padding-top: 10px;
+}
+
+.great p {
+	padding-top: 10px;
+	color: hsl(241, 100%, 89%)
+}
+
+/* ------------------- SUMÁRIO ------------------- */
+
+p {
+	margin-bottom: 0 !important;
+	font-weight: bold;
+}
+
+.sumario {
+	width: 322px;
+	height: 460px;
+	background-color: white;
+	border-radius: 32px 32px 32px 0;
+	padding: 35px;
+	text-align: left;
+	display: block;
+}
+
+.sumario div {
+	padding: 13px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.sumario h4 {
+	color: hsl(224, 30%, 27%);
+	font-size: 25px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+.pontos {
+	display: inline-block;
+	float: right;
+	font-weight: 800;
+}
+
+.valor {
+	color: hsl(224, 30%, 27%)
+}
+
+.cem {
+	color: #8d969d;
+}
+
+.reaction {
+	color: hsl(0, 100%, 67%);
+	background-color: #fff0ee;
+	position: relative;
+}
+
+.memory {
+	color: hsl(39, 100%, 56%);
+	background-color: #fffbf2;
+	position: relative;
+}
+
+.verbal {
+	color: hsl(166, 100%, 37%);
+	background-color: #f2fbfa;
+}
+
+.visual {
+	color: hsl(234, 85%, 45%);
+	background-color: #f3f3fd;
+}
+
+button {
+	color: white;
+	background-color: hsl(224, 30%, 27%);
+	border-radius: 24px !important;
+	height: 50px;
+	margin-top: 5px;
+}
+
+.sumario > span {
+	color: white;
+	background-color: hsl(224, 30%, 27%);
+	border-radius: 24px !important;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 5px;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	transition: all ease-in-out 200ms;
+}
+
+.sumario > span:hover {
+	background-color: hsl(241, 81%, 54%);
+	transition: all ease-in-out 200ms;
+}
+
+
+
+ /* Mobile */
+
+@media (max-width: 644px) {
+	.caixa {
+		background-color: white;
+		width: 100%;
+		height: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.todo {
+		background-color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		border-radius: 32px;
+		box-shadow: none;
+		flex-direction: column;
+	}
+
+	.conteudo {
+		width: 100%;
+		border-radius: 0px 0px 32px 32px;
+		padding-top: 0px;
+	}
+
+	.sumario {
+		width: 100%;
+	}
+}
+
+/* DESKTOP */
+@media (min-width: 645px) {
+	.caixa {
+		background-color: white;
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.todo {
+		background-color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		border-radius: 32px;
+		box-shadow: 24px 24px 25px 5px hsl(241deg 87% 81% / 14%);
+	}
+}
