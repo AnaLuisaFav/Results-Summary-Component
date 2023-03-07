@@ -109,6 +109,12 @@ p {
 	color: #8d969d;
 }
 
+.icon {
+	padding-right: 5px;
+	display: inline-block;
+	vertical-align: sub;
+}
+
 .reaction {
 	color: hsl(0, 100%, 67%);
 	background-color: #fff0ee;
