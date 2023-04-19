@@ -12,7 +12,7 @@
 *<h1>Pré-visualização</h1>Preview*
 
 <div align='center'>
-<img src='mobile-desk-results.png' alt='Profile preview'>
+<img src='mobile-desk-results-summary.png' alt='Profile preview'>
 </div>
 
 <br>
